@@ -1,0 +1,30 @@
+.pokemonList {
+    width: 400px;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.pokemonItem {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin-bottom: 10px;
+
+    border: black 1px solid;
+    border-radius: 20px;
+    background-color:ivory;
+    padding: 10px;
+}
+
+.pokemonInfo {
+    flex-grow: 1;
+}
+
+.pokemonInfo * {
+    margin: 0px;
+}
+
+.pokemonImage {
+    width: 100px;
+    flex-grow: 0;
+}
